@@ -3,5 +3,7 @@
 
 
 Private Sub Application_NewMailEx(ByVal EntryIDCollection As String)
+
   AmazonInbox EntryIDCollection
+  
 End Sub
